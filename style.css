@@ -1,0 +1,186 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  
+  
+  
+  .banner {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: center;
+  
+  }
+  
+  .navbar {
+    width: 100%;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+  }
+  
+  .logo {
+    width: 500px;
+    margin-top: -10px;
+    cursor: pointer;
+  }
+  
+  .navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+  
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(107, 106, 106);
+    font-weight: 600;
+    padding: 15px;
+  
+  }
+  
+  li a:hover {
+    transition: 0.5s;
+  }
+  
+  .navbar a:hover {
+    color: rgb(94, 12, 97);
+  }
+  
+  .content {
+    margin-top: 30px;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    color: black;
+    transform: rotateY(-50%);
+  }
+  
+  .content h1 {
+    margin-top: 80px;
+    font-size: 90px;
+    font-weight: 800;
+  }
+  
+  .btn1 {
+    background-color: rgba(143, 40, 126);
+    color: white;
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+  
+  }
+  
+  .btn1:hover {
+    color: rgb(94, 12, 97);
+    background-color: rgb(194, 174, 201);
+  }
+  
+  .banner video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+  
+  .carousel-item {
+    height: 700px;
+    width: 700px;
+    object-fit: cover;
+    float: left;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /* services wall */
+  
+  .wall {
+    background-image: linear-gradient(to right, rgb(143, 40, 126), rgba(148, 138, 138, 0.192));
+  }
+  
+  
+  /* services content color */
+  
+  .bb {
+    background-color: rgb(205, 158, 233);
+    color: rgb(62, 9, 87);
+  }
+  
+  
+  /* services content background  */
+  
+  .bg {
+    background-image: url(Assets/spa2.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  
+  /* contact wall */
+  
+  .wall1 {
+    background-image: linear-gradient(to bottom right, rgba(148, 138, 138, 0.192), rgb(143, 40, 126));
+  }
+  
+  
+  /* contact social media links */
+  
+  .contactbg {
+    height: 120px;
+  }
+  
+  
+  /* services horizontal line */
+  
+  .rounded {
+    border-top: 8px solid purple;
+    border-radius: 5px;
+    width: 80%;
+  }
+  
+  
+  /* contact form */
+  
+  .lady {
+    float: right;
+  }
+  
+  /* footer */
+  
+  
+  .footer {
+    background-color: rgb(143, 126, 145);
+    color: white;
+  }
+  
+  .footer ul li {
+    list-style: none;
+  }
